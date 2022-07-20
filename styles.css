@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-weight: bold;
+}
+.hlinks{
+    list-style: none;
+}
+ul{
+    display: flex;
+    gap: 16px;
+
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
