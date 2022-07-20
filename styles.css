@@ -15,6 +15,9 @@ ul{
 }
 body{
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 p{
@@ -24,7 +27,7 @@ p{
 .midOne{
     display: flex;
     justify-content: space-around;
-    padding: 20px;
+    padding: 75px;
     background-color: #1F2937;
 }
 
@@ -47,4 +50,71 @@ p{
 img{
     width: auto;
     height: 250px;
+}
+
+.picContainer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 75px;
+    padding: 50px;
+}
+
+.midTwo .header{
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.quotes{
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quoteBox{
+    text-align: center;
+    width: 500px;
+    padding: 100px 0px 100px;
+}
+
+.midThree{
+    display: flex;
+    justify-content: center;
+}
+
+.boxThree{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    width: 750px;
+    height: 100px;
+    margin: 100px 0px 100px 0px;
+    color: white;
+}
+.boxThree button{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 75px;
+    height: 20px;
+    margin-right: 50px;
+}
+
+.boxThree .group{
+    margin-left: 50px;
+}
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    height: 100px;
+}
+
+.footer p{
+    color: white;
 }
